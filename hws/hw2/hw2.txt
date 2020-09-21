@@ -1,0 +1,15 @@
+HOMEWORK FOR WEEK 2
+
+1. Document statistics generation.
+During the session, we worked with news documents. The structures and contents of documents from distinct domains may vary significantly. For this part of the homework, we are going to work with scientific publications. The ’science_text’ folder (inside the inclass_task_solutions folder) contains several scientific publication texts (with some noise, which is typical for web-scraped data).
+
+a) For scientificpub1: (i) what is the length of the document in (i) sentences and (ii) words. How many word types are there?
+b) What is the average length of an unprocessed token in the file.
+c) What are the 10 most frequent terms in the document before and after preprocessing?
+d) What are the 10 most frequent terms in the document that start with the letter ‘p’ (case insensitive). 
+e) What type of noise is present in the file? Does it affect the statistics we generated?
+
+2. Corpus statistics generation.
+A corpus is a set of texts that are useful for some task (typically annotated). Let’s consider the collection of files in the ‘science_text’ folder as a small corpus. Analyzing these documents may give us an idea of the domain of text.
+a) What is the average document length for the whole corpus (i) in sentences, (ii) in words?
+b) Which document in the folder has the highest lexical diversity?

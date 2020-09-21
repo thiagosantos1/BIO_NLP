@@ -1,0 +1,50 @@
+
+Question 1
+	a)
+	    length of the document in sentences:  387
+	    length of the document in words:  10236
+	    Total number of word types in the article:  1710
+
+	b)
+	    Average length of an unprocessed token in the file:  7.1192982456140355
+
+	c)
+	    10 most frequent terms in the document before preprocessing:  'the', ',', '.', 'of', 'and', 'data', 'to', 'for', 'from', 'in'
+
+	d)
+	    10 most frequent terms in the document after preprocessing:  'data', 'set', 'adr', 'featur', 'use', 'classif', 'text', 'perform', 'social', 'train'
+
+	e)
+	    What type of noise is present in the file? Does it affect the statistics we generated?
+	          We have multiple types of noise in the text, including:
+                     * Ponctuation
+                     * Numbers
+                     * Fixed structure words (headers)
+                     * Misspelling words
+                     * Uppercase words
+                     * Stop words
+                     * Many others
+
+	     Does it affect the statistics we generated?  Yes it does. Not only on the statistics but also on
+	     how we can undestand the data using mathematical models
+
+Question 2
+	a)
+	    length of the document in sentences:  908
+	        Or --> Average document length(3 docs) for the whole corpus in sentences:  289.0
+	    length of the document in words:  21633
+	        Or --> Average document length(3 docs) for the whole corpus in words:  7197.666666666667
+	b)
+	    Which document in the folder has the highest lexical diversity?
+	         Before cleaning each file from corpus we get the following distribution of unique words
+                      * scientificpub1:  1710
+                      * scientificpub2:  630
+                      * scientificpub3:  1837
+	         After cleaning each file from corpus we get the following distribution of unique words
+                      * scientificpub1:  1046
+                      * scientificpub2:  410
+                      * scientificpub3:  1140
+	    This gives us an idea that the file scientificpub3 may have more diversity since it contains a greather
+	         number of words. However, it's difficult to draw a conclusion, since we aren't sure about
+	         how spread the words are. Also, the total number of unique words from scientificpub1 is not far
+	         One of theniques we could apply is clustering, to see up to how many topics each document holds
