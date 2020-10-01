@@ -1,0 +1,22 @@
+HOMEWORK WEEK 4
+
+1.a) We looked at Tf-Idf vectors in class and generated term frequency vectors. We also discussed how popular it is. It happens to be particularly popular for recommender systems. According to this paper: https://link.springer.com/article/10.1007/s00799-015-0156-0 , 83% of recommender systems use tf-idf representations.
+
+For the first part of the homework, complete the function
+
+def make_inverted_index(corpus_path):
+    '''
+    :param corpus_path: the path to a corpus (which is basically a directory of text files)
+    :return: an inverted index as a dictionary; the inverted index should be a defaultdict
+        with an n-gram as the key and all the documents that contain the n-gram as a list
+
+    '''
+b) Complete the function
+def dfs(inverted_index, vocab_terms):
+    '''
+    :param inverted_index: an inverted index of the corpus as a dictionary
+    :param vocab_terms: the terms in the vocabulary
+    :return: a list of document frequencies for each term
+    '''
+
+c) Use the tfidf() function given, which uses the tfs() and dfs() functions, to generate the tf-idf vectors for the scientific texts, using all the files to generate the vocabulary. However, instead of just using unigrams, Include both uni and bigrams to create the vectors. What are the similarities between the documents?
