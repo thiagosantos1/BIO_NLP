@@ -41,7 +41,7 @@ from sklearn import svm
 from nltk.stem.porter import *
 from nltk.corpus import stopwords
 from sklearn.pipeline import Pipeline,make_pipeline
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, f1_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.naive_bayes import GaussianNB
 from sklearn.ensemble import VotingClassifier
